@@ -18,7 +18,7 @@ function App() {
       <RouterProvider router={router}></RouterProvider>;
       {AOS.init({ duration: 800 })}
     </>
-  );
+  )
 }
 
 export default App;

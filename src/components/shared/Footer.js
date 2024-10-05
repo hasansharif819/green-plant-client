@@ -9,6 +9,7 @@ import {
   FaGoogle,
   FaTwitter,
   FaFacebook,
+  FaGlobe
 } from "react-icons/fa";
 
 const Footer = () => {
@@ -47,22 +48,22 @@ const Footer = () => {
 
               <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
                 <h6 className="text-uppercase mb-4 font-weight-bold">
-                  Products
+                  Menu
                 </h6>
                 <p>
-                  <Link className="text-black">Chinese Evergreen</Link>
+                  <Link to='/products' className="text-black text-decoration-none">Products</Link>
                 </p>
                 <p>
-                  <Link className="text-black">English Ivy</Link>
+                  <Link to='/about' className="text-black text-decoration-none">About</Link>
                 </p>
                 <p>
-                  <Link className="text-black">Parlor Palm</Link>
+                  <Link to='/contact' className="text-black text-decoration-none">Contact</Link>
                 </p>
                 <p>
-                  <Link className="text-black">Flowering Plants</Link>
+                  <Link to='/blogs' className="text-black text-decoration-none">Blogs</Link>
                 </p>
                 <p>
-                  <Link className="text-black">Bonsai</Link>
+                  <Link to='/' className="text-black text-decoration-none">Home</Link>
                 </p>
               </div>
 
@@ -72,19 +73,19 @@ const Footer = () => {
                   Useful links
                 </h6>
                 <p>
-                  <Link className="text-black">Shipping</Link>
+                  <Link className="text-black text-decoration-none">Shipping</Link>
                 </p>
                 <p>
-                  <Link className="text-black">Terms & Conditions</Link>
+                  <Link className="text-black text-decoration-none">Terms & Conditions</Link>
                 </p>
                 <p>
-                  <Link className="text-black">Help</Link>
+                  <Link className="text-black text-decoration-none">Help</Link>
                 </p>
                 <p>
-                  <Link className="text-black">My Account</Link>
+                  <Link className="text-black text-decoration-none">My Account</Link>
                 </p>
                 <p>
-                  <Link className="text-black">Order History</Link>
+                  <Link className="text-black text-decoration-none">Order History</Link>
                 </p>
               </div>
               <hr className="w-100 clearfix d-md-none" />
@@ -94,17 +95,17 @@ const Footer = () => {
                   Contact
                 </h6>
                 <p>
-                  <FaMapMarkerAlt /> Thakurgaon, Dhaka, Bangladesh
+                  <FaMapMarkerAlt /> Uttara, Dhaka
                 </p>
                 <p>
-                  <FaRegEnvelope /> greenplant@gmail.com
+                  <FaRegEnvelope /> hs.sharif819@gmail.com
                 </p>
                 <p>
-                  <FaPhoneAlt />+ 01 234 567 88
+                  <FaPhoneAlt /> +8801640911511
                 </p>
-                <p>
-                  <FaPhoneAlt />+ 0234 567 880
-                </p>
+                <Link className="text-black text-decoration-none" to={"https://sharifs-portfolio.vercel.app/"} >
+                  <FaGlobe /> Sharif Hasan
+                </Link>
               </div>
             </div>
           </section>
@@ -114,11 +115,11 @@ const Footer = () => {
             <div className="row d-flex align-items-center">
               <div className="col-md-7 col-lg-8 text-center text-md-start">
                 <div className="p-3">
-                  Copyright © 2023 Green Plant. All rights reserved
+                  Copyright © 2024 Green Plant. All rights reserved
                 </div>
               </div>
               <div className="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
-                <Link className=" m-2 text-black fs-5" role="button">
+                <Link to={"https://www.facebook.com/profile.php?id=100012993934707"} className=" m-2 text-black fs-5" role="button">
                   <FaFacebook />
                 </Link>
                 <Link className=" m-2 text-black fs-5" role="button">
@@ -128,8 +129,8 @@ const Footer = () => {
                   <FaGoogle />
                 </Link>
 
-                <Link className=" m-2 text-black fs-5" role="button">
-                  <FaInstagram />
+                <Link to={"https://sharifs-portfolio.vercel.app/"} className=" m-2 text-black fs-5" role="button">
+                  <FaGlobe />
                 </Link>
               </div>
             </div>
