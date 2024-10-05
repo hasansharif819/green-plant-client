@@ -5,7 +5,6 @@ import {
   FaMapMarkerAlt,
   FaRegEnvelope,
   FaPhoneAlt,
-  FaInstagram,
   FaGoogle,
   FaTwitter,
   FaFacebook,
